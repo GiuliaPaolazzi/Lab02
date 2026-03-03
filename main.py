@@ -1,13 +1,13 @@
 import translator as tr
 
-t = tr.Translator()
-
+t = tr.Translator("filename.txt")
+#t.loadDictionary("filename.txt")
 
 while(True):
 
     t.printMenu()
 
-    t.loadDictionary("filename.txt")
+
 
     txtIn = input()
 
